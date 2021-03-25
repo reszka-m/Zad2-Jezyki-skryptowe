@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#Obszar1 {
+    width: 200px;
+    height: 300px;
+    float: left;
+    background-color: cadetblue;
+    min-height: 83vh;
+}
+
+#Obszar2 {
+    width: 100%;
+    height: 300px;
+    background-color: cornsilk;
+    min-height: 83vh;
+}
+
+#Obszar3 {
+    width: 200px;
+    height: 300px;
+    float: right;
+    background-color: cadetblue;
+    min-height: 83vh;
+}
+
+#Logo {
+    float: left;
+}
+
+#Naglowek {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+header {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: cornsilk;
+    font-size: 3rem;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 10vh;
+}
+
+#Zaloguj {
+    font-size: 20px;
+    background-color: cornsilk;    
+}
+
+#Menu {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: cadetblue;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+          -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.option {
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px dotted cornsilk;
+    opacity: 0.8;
+}
+
+.option:hover{
+    background-color: cornsilk;
+    cursor: pointer;
+}
